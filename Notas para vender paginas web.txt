@@ -1,0 +1,5 @@
+Notas para vender paginas web 
+
+
+Si no se desean las páginas restantes se puede implementar los servicios de agendar citas o funcion de calculadora para el cliente 
+

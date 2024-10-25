@@ -1,269 +1,526 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="es">
+<html style="font-size: 16px" lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta
+      name="keywords"
+      content="Desarrollo web, Diseño web, Páginas web personalizadas, Sitios web responsivos, SEO, Optimización web, Experiencia de usuario, Soluciones digitales, Epic Systems"
+    />
+    <meta
+      name="description"
+      content="Epic Systems: Desarrollo de páginas web de alta calidad. Creamos sitios web personalizados y responsivos que impulsan el crecimiento de tu negocio. Soluciones digitales innovadoras y optimizadas para SEO."
+    />
+    <title>Epic Systems - Desarrollo Web Profesional</title>
+    <link rel="stylesheet" href="epicsys.css" media="screen" />
+    <link rel="stylesheet" href="index.css" media="screen" />
+    <script
+      class="u-script"
+      type="text/javascript"
+      src="jquery.js"
+      defer=""
+    ></script>
+    <script
+      class="u-script"
+      type="text/javascript"
+      src="epicsys.js"
+      defer=""
+    ></script>
+    <link
+      id="u-theme-google-font"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
+    />
+    <link
+      id="u-page-google-font"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    />
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
-  <meta name="keywords"
-    content="Desarrollo web, Diseño web, Páginas web personalizadas, Sitios web responsivos, SEO, Optimización web, Experiencia de usuario, Soluciones digitales, Epic Systems">
-  <meta name="description" content="Epic Systems: Desarrollo de páginas web de alta calidad. Creamos sitios web personalizados y responsivos que impulsan el crecimiento de tu negocio. Soluciones digitales innovadoras y optimizadas para SEO.">
-  <title>Epic Systems - Desarrollo Web Profesional</title>
-  <link rel="stylesheet" href="epicsys.css" media="screen">
-  <link rel="stylesheet" href="index.css" media="screen">
-  <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-  <script class="u-script" type="text/javascript" src="epicsys.js" defer=""></script>
-  <link id="u-theme-google-font" rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-  <link id="u-page-google-font" rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <!-- Favicon -->
+    <link rel="icon" href="./images/Empresapng.png" type="image/png" />
 
-  <!-- Favicon -->
-  <link rel="icon" href="./images/Empresapng.png" type="image/png">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ingperea.online/" />
+    <meta
+      property="og:title"
+      content="Epic Systems - Desarrollo Web Profesional"
+    />
+    <meta
+      property="og:description"
+      content="Epic Systems: Desarrollo de páginas web de alta calidad. Creamos sitios web personalizados y responsivos que impulsan el crecimiento de tu negocio."
+    />
+    <meta
+      property="og:image"
+      content="https://ingperea.online/images/Empresa.png"
+    />
+    <meta property="og:locale" content="es_MX" />
+    <!-- Idioma y localización -->
+    <meta property="og:site_name" content="Epic Systems" />
+    <!-- Nombre del sitio -->
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://ingperea.online/">
-<meta property="og:title" content="Epic Systems - Desarrollo Web Profesional">
-<meta property="og:description" content="Epic Systems: Desarrollo de páginas web de alta calidad. Creamos sitios web personalizados y responsivos que impulsan el crecimiento de tu negocio.">
-<meta property="og:image" content="https://ingperea.online/images/Empresa.png">
-<meta property="og:locale" content="es_MX"> <!-- Idioma y localización -->
-<meta property="og:site_name" content="Epic Systems"> <!-- Nombre del sitio -->
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://ingperea.online/" />
+    <meta
+      name="twitter:title"
+      content="Epic Systems - Desarrollo Web Profesional"
+    />
+    <meta
+      name="twitter:description"
+      content="Epic Systems: Desarrollo de páginas web de alta calidad. Creamos sitios web personalizados y responsivos que impulsan el crecimiento de tu negocio."
+    />
+    <meta
+      name="twitter:image"
+      content="https://ingperea.online/images/Empresa.png"
+    />
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://ingperea.online/">
-<meta name="twitter:title" content="Epic Systems - Desarrollo Web Profesional">
-<meta name="twitter:description" content="Epic Systems: Desarrollo de páginas web de alta calidad. Creamos sitios web personalizados y responsivos que impulsan el crecimiento de tu negocio.">
-<meta name="twitter:image" content="https://ingperea.online/images/Empresa.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://epicsystems.com/" />
+    <meta
+      property="twitter:title"
+      content="Epic Systems - Desarrollo Web Profesional"
+    />
+    <meta
+      property="twitter:description"
+      content="Epic Systems: Desarrollo de páginas web de alta calidad. Creamos sitios web personalizados y responsivos que impulsan el crecimiento de tu negocio."
+    />
+    <meta property="twitter:image" content="https://ingperea.online/logo.png" />
 
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Epic Systems",
+        "logo": "images/Empresapng.png",
+        "description": "Epic Systems es una empresa dedicada al desarrollo de páginas web personalizadas y soluciones digitales innovadoras.",
+        "url": "https://epicsystems.com",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "492-223-7517",
+          "contactType": "customer service"
+        }
+      }
+    </script>
+    <meta name="theme-color" content="#34c1f4" />
+    <meta data-intl-tel-input-cdn-path="intlTelInput/" />
+  </head>
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://epicsystems.com/">
-  <meta property="twitter:title" content="Epic Systems - Desarrollo Web Profesional">
-  <meta property="twitter:description" content="Epic Systems: Desarrollo de páginas web de alta calidad. Creamos sitios web personalizados y responsivos que impulsan el crecimiento de tu negocio.">
-  <meta property="twitter:image" content="https://epicsystems.com/logo.png">
-
-  <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "Epic Systems",
-		"logo": "images/Empresapng.png",
-    "description": "Epic Systems es una empresa dedicada al desarrollo de páginas web personalizadas y soluciones digitales innovadoras.",
-    "url": "https://epicsystems.com",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "492-223-7517",
-      "contactType": "customer service"
-    }
-}</script>
-  <meta name="theme-color" content="#34c1f4">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/">
-</head>
-
-<body data-home-page="Inicio.html" data-home-page-title="Inicio" data-path-to-root="./" data-include-products="false"
-  class="u-body u-overlap u-overlap-contrast u-xl-mode" data-lang="es">
-  <header class="u-clearfix u-header" id="sec-bd56">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <a href="#" class="u-image u-logo u-image-1" data-image-width="846" data-image-height="765">
-        <img src="images/Empresapng.png" class="u-logo-image u-logo-image-1" alt="Epic Systems Logo">
-      </a>
-      <nav class="u-menu u-menu-one-level u-menu-open-right u-offcanvas u-menu-1" data-submenu-level="on-click">
-        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
-          <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-            href="#">
-            <svg class="u-svg-link" viewBox="0 0 24 24">
-              <use xlink:href="#menu-hamburger"></use>
-            </svg>
-            <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px"
-              xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-              <g>
-                <rect y="1" width="16" height="2"></rect>
-                <rect y="7" width="16" height="2"></rect>
-                <rect y="13" width="16" height="2"></rect>
-              </g>
-            </svg>
+  <body
+    data-home-page="Inicio.html"
+    data-home-page-title="Inicio"
+    data-path-to-root="./"
+    data-include-products="false"
+    class="u-body u-overlap u-overlap-contrast u-xl-mode"
+    data-lang="es"
+  >
+    <header class="u-clearfix u-header" id="sec-bd56">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <a
+          href="#"
+          class="u-image u-logo u-image-1"
+          data-image-width="846"
+          data-image-height="765"
+        >
+          <img
+            src="images/Empresapng.png"
+            class="u-logo-image u-logo-image-1"
+            alt="Epic Systems Logo"
+          />
+        </a>
+        <nav
+          class="u-menu u-menu-one-level u-menu-open-right u-offcanvas u-menu-1"
+          data-submenu-level="on-click"
+        >
+          <div
+            class="menu-collapse"
+            style="font-size: 1rem; letter-spacing: 0px"
+          >
+            <a
+              class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
+              href="#"
+            >
+              <svg class="u-svg-link" viewBox="0 0 24 24">
+                <use xlink:href="#menu-hamburger"></use>
+              </svg>
+              <svg
+                class="u-svg-content"
+                version="1.1"
+                id="menu-hamburger"
+                viewBox="0 0 16 16"
+                x="0px"
+                y="0px"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <rect y="1" width="16" height="2"></rect>
+                  <rect y="7" width="16" height="2"></rect>
+                  <rect y="13" width="16" height="2"></rect>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1">
+              <li class="u-nav-item">
+                <a
+                  class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
+                  href="./"
+                  style="padding: 10px 20px"
+                  >Inicio</a
+                >
+              </li>
+              <li class="u-nav-item">
+                <a
+                  class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
+                  href="Catálogo.html"
+                  style="padding: 10px 20px"
+                  >Catálogo</a
+                >
+              </li>
+              <li class="u-nav-item">
+                <a
+                  class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
+                  href="Precios.html"
+                  style="padding: 10px 20px"
+                  >Precios</a
+                >
+              </li>
+              <li class="u-nav-item">
+                <a
+                  class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
+                  href="Contacto.html"
+                  style="padding: 10px 20px"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div
+              class="u-border-2 u-border-grey-75 u-border-no-left u-container-style u-inner-container-layout u-opacity u-opacity-95 u-palette-1-light-2 u-sidenav u-sidenav-1"
+              data-offcanvas-width="201"
+            >
+              <div
+                class="u-inner-container-layout u-sidenav-overflow"
+                style="padding: 0px"
+              >
+                <div class="u-menu-close"></div>
+                <ul
+                  class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"
+                >
+                  <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link" href="./">Inicio</a>
+                  </li>
+                  <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link" href="Catálogo.html"
+                      >Catálogo</a
+                    >
+                  </li>
+                  <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link" href="Precios.html"
+                      >Precios</a
+                    >
+                  </li>
+                  <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link" href="Contacto.html"
+                      >Contacto</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section
+      class="u-align-right u-clearfix u-container-align-right u-container-align-right-lg u-container-align-right-md u-container-align-right-sm u-container-align-right-xl u-image u-shading u-section-1"
+      id="sec-7824"
+      src=""
+      data-image-width="1920"
+      data-image-height="1080"
+    >
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2
+          class="u-text u-text-1"
+          data-animation-name="customAnimationIn"
+          data-animation-duration="1500"
+          data-animation-delay="250"
+        >
+          Ayudamos a las personas a crecer mediante la creación de sitios web de
+          alta calidad.
+        </h2>
+        <p
+          class="u-large-text u-text u-text-body-alt-color u-text-font u-text-variant u-text-2"
+        >
+          <a
+            href="Catáo.html"
+            class="u-active-none u-border-0 u-btn u-btn-1 u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1"
+            >Modernidad
           </a>
-        </div>
-        <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-unstyled u-nav-1">
-            <li class="u-nav-item"><a
-                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="./"
-                style="padding: 10px 20px;">Inicio</a>
-            </li>
-            <li class="u-nav-item"><a
-                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                href="Catalogo.html" style="padding: 10px 20px;">Catalogo</a>
-            </li>
-            <li class="u-nav-item"><a
-                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                href="Precios.html" style="padding: 10px 20px;">Precios</a>
-            </li>
-            <li class="u-nav-item"><a
-                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                href="Contacto.html" style="padding: 10px 20px;">Contacto</a>
-            </li>
-          </ul>
-        </div>
-        <div class="u-custom-menu u-nav-container-collapse">
-          <div
-            class="u-border-2 u-border-grey-75 u-border-no-left u-container-style u-inner-container-layout u-opacity u-opacity-95 u-palette-1-light-2 u-sidenav u-sidenav-1"
-            data-offcanvas-width="201">
-            <div class="u-inner-container-layout u-sidenav-overflow" style="padding: 0px;">
-              <div class="u-menu-close"></div>
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="./">Inicio</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Catalogo.html">Catalogo</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Precios.html">Precios</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contacto.html">Contacto</a>
-                </li>
-              </ul>
+          |
+          <a
+            href="Catáo.html"
+            class="u-active-none u-border-none u-btn u-btn-2 u-button-link u-button-style u-hover-none u-none u-text-body-alt-color"
+            >Practicidad
+          </a>
+          |
+          <a
+            href="Catáo.html"
+            class="u-active-none u-border-none u-btn u-btn-3 u-button-link u-button-style u-hover-none u-none u-text-body-alt-color"
+            >Elegancia </a
+          >&nbsp;|
+        </p>
+        <a
+          href="Catálogo.html"
+          class="u-active-white u-border-4 u-border-white u-btn u-btn-round u-button-style u-hover-white u-none u-radius-50 u-text-active-black u-text-body-alt-color u-text-hover-black u-btn-4"
+          >Catálogo
+        </a>
+      </div>
+    </section>
+    <section
+      class="u-align-center u-clearfix u-container-align-center u-palette-5-light-2 u-section-2"
+      id="sec-8396"
+    >
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2
+          class="u-custom-font u-font-montserrat u-text u-text-1"
+          data-animation-name="customAnimationIn"
+          data-animation-duration="1750"
+          data-animation-delay="250"
+        >
+          Descubrir y satisfacer las necesidades de los clientes.
+        </h2>
+        <p
+          class="u-text u-text-2"
+          data-animation-name="customAnimationIn"
+          data-animation-duration="1250"
+          data-animation-delay="250"
+        >
+          La mayoría de las empresas no piensan en los comerciantes pequeños,
+          por esto en esta empresa nos enfocamos en dar a conocer nuestros
+          servicios accesibles para todo público.
+        </p>
+        <div class="u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div
+              class="u-align-left u-border-9 u-border-no-bottom u-border-no-right u-border-no-top u-border-palette-1-base u-container-align-left u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-1"
+              data-animation-name="customAnimationIn"
+              data-animation-duration="1750"
+              data-animation-direction=""
+              data-animation-delay="250"
+            >
+              <div
+                class="u-container-layout u-similar-container u-container-layout-1"
+              >
+                <h4
+                  class="u-custom-font u-font-montserrat u-text u-text-default u-text-3"
+                >
+                  Precios a bajo costo
+                </h4>
+                <p class="u-text u-text-default u-text-4">
+                  Manejamos precios muy competitivos en el mercado para todos
+                  aquellos que más que un lujo es una necesidad tener su propia
+                  página web.<br />Por eso nuestros precios inician desde
+                  $1,800MXN.<br />Contamos con una opción de liquidar a 45 días
+                  después de entregar su sitio<br />
+                </p>
+                <a
+                  href="Precios.html"
+                  class="u-active-none u-border-2 u-border-active-palette-2-base u-border-black u-border-hover-palette-2-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-hover-none u-none u-text-active-palette-2-base u-text-body-color u-text-hover-palette-2-base u-btn-1"
+                  >más</a
+                >
+              </div>
             </div>
-          </div>
-          <div class="u-menu-overlay u-opacity u-opacity-70"></div>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <section
-    class="u-align-right u-clearfix u-container-align-right u-container-align-right-lg u-container-align-right-md u-container-align-right-sm u-container-align-right-xl u-image u-shading u-section-1"
-    id="sec-7824" src="" data-image-width="1920" data-image-height="1080">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <h2 class="u-text u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500"
-        data-animation-delay="250"> Ayudamos a las personas a crecer mediante la creación de sitios web de alta calidad.
-      </h2>
-      <p class="u-large-text u-text u-text-body-alt-color u-text-font u-text-variant u-text-2">
-        <a href="Catalogo.html"
-          class="u-active-none u-border-0 u-btn u-btn-1 u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1">Modernidad
-        </a> | <a href="Catalogo.html"
-          class="u-active-none u-border-none u-btn u-btn-2 u-button-link u-button-style u-hover-none u-none u-text-body-alt-color">Practicidad
-        </a> | <a href="Catalogo.html"
-          class="u-active-none u-border-none u-btn u-btn-3 u-button-link u-button-style u-hover-none u-none u-text-body-alt-color">Elegancia
-        </a>&nbsp;|
-      </p>
-      <a href="Catalogo.html"
-        class="u-active-white u-border-4 u-border-white u-btn u-btn-round u-button-style u-hover-white u-none u-radius-50 u-text-active-black u-text-body-alt-color u-text-hover-black u-btn-4">catalogo
-      </a>
-    </div>
-  </section>
-  <section class="u-align-center u-clearfix u-container-align-center u-palette-5-light-2 u-section-2" id="sec-8396">
-    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-      <h2 class="u-custom-font u-font-montserrat u-text u-text-1" data-animation-name="customAnimationIn"
-        data-animation-duration="1750" data-animation-delay="250"> Descubrir y satisfacer las necesidades de los
-        clientes.</h2>
-      <p class="u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1250"
-        data-animation-delay="250"> La mayoría de las empresas no piensan en los comerciantes pequeños, por esto en esta
-        empresa nos enfocamos en dar a conocer nuestros servicios accesibles para todo público.</p>
-      <div class="u-list u-list-1">
-        <div class="u-repeater u-repeater-1">
-          <div
-            class="u-align-left u-border-9 u-border-no-bottom u-border-no-right u-border-no-top u-border-palette-1-base u-container-align-left u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-1"
-            data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-direction=""
-            data-animation-delay="250">
-            <div class="u-container-layout u-similar-container u-container-layout-1">
-              <h4 class="u-custom-font u-font-montserrat u-text u-text-default u-text-3">Precios a bajo costo </h4>
-              <p class="u-text u-text-default u-text-4">Manejamos precios muy competitivos en el mercado para todos
-                aquellos que más que un lujo es una necesidad tener su propia página web.<br>Por eso nuestros precios
-                inician desde $1,800MXN.<br>Contamos con una opción de liquidar a 45 días después de entregar su
-                sitio<br>
-              </p>
-              <a href="Precios.html"
-                class="u-active-none u-border-2 u-border-active-palette-2-base u-border-black u-border-hover-palette-2-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-hover-none u-none u-text-active-palette-2-base u-text-body-color u-text-hover-palette-2-base u-btn-1">más</a>
-            </div>
-          </div>
-          <div
-            class="u-align-left u-border-9 u-border-no-bottom u-border-no-right u-border-no-top u-border-palette-1-base u-container-align-left u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-video-cover u-white u-list-item-2"
-            data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-direction=""
-            data-animation-delay="250">
-            <div class="u-container-layout u-similar-container u-container-layout-2">
-              <h4 class="u-custom-font u-font-montserrat u-text u-text-default u-text-5">Nuestro Trabajo </h4>
-              <p class="u-text u-text-default u-text-6">No por tener un precio bajo vamos a dar un producto de mala
-                calidad, así que por eso ponemos a su disposición el catalogo disponible.&nbsp;</p>
-              <a href="Catalogo.html"
-                class="u-active-none u-border-2 u-border-active-palette-2-base u-border-black u-border-hover-palette-2-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-hover-none u-none u-text-active-palette-2-base u-text-body-color u-text-hover-palette-2-base u-btn-2">más</a>
+            <div
+              class="u-align-left u-border-9 u-border-no-bottom u-border-no-right u-border-no-top u-border-palette-1-base u-container-align-left u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-video-cover u-white u-list-item-2"
+              data-animation-name="customAnimationIn"
+              data-animation-duration="1750"
+              data-animation-direction=""
+              data-animation-delay="250"
+            >
+              <div
+                class="u-container-layout u-similar-container u-container-layout-2"
+              >
+                <h4
+                  class="u-custom-font u-font-montserrat u-text u-text-default u-text-5"
+                >
+                  Nuestro Trabajo
+                </h4>
+                <p class="u-text u-text-default u-text-6">
+                  No por tener un precio bajo vamos a dar un producto de mala
+                  calidad, así que por eso ponemos a su disposición el Catálogo
+                  disponible.&nbsp;
+                </p>
+                <a
+                  href="Catálogo.html"
+                  class="u-active-none u-border-2 u-border-active-palette-2-base u-border-black u-border-hover-palette-2-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-hover-none u-none u-text-active-palette-2-base u-text-body-color u-text-hover-palette-2-base u-btn-2"
+                  >más</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="u-clearfix u-palette-3-base u-section-3" id="carousel_d699">
-    <div class="u-expanded-width u-palette-5-light-2 u-shape u-shape-rectangle u-shape-1"></div>
-    <h2 class="u-align-center u-text u-text-body-color u-text-1" data-animation-name="customAnimationIn"
-      data-animation-duration="1500" data-animation-delay="500">Asesoramos a los clientes en el paso a paso de la
-      creación de su sitio</h2>
-    <div class="data-layout-selected u-clearfix u-gutter-26 u-layout-wrap u-layout-wrap-1">
-      <div class="u-layout">
-        <div class="u-layout-row">
-          <div class="u-size-20">
-            <div class="u-layout-col">
-              <div
-                class="u-align-center u-container-align-center u-container-style u-layout-cell u-radius-26 u-shape-round u-size-40 u-white u-layout-cell-1"
-                data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
-                <div class="u-container-layout u-valign-top u-container-layout-1"><span
-                    class="u-icon u-icon-circle u-palette-1-base u-text-white u-icon-1"><svg class="u-svg-link"
-                      preserveAspectRatio="xMidYMin slice" viewBox="0 0 57 57" style="">
-                      <use xlink:href="#svg-b99c"></use>
-                    </svg><svg class="u-svg-content" viewBox="0 0 57 57" x="0px" y="0px" id="svg-b99c"
-                      style="enable-background:new 0 0 57 57;">
-                      <path
-                        d="M52,3c-2.757,0-5,2.243-5,5v2.268L7.964,22.645C7.781,20.607,6.084,19,4,19c-2.206,0-4,1.794-4,4v11c0,2.206,1.794,4,4,4  c2.084,0,3.781-1.607,3.964-3.645l3.368,1.068c-0.506,0.455-0.913,1.03-1.138,1.722c-0.328,1.014-0.241,2.097,0.246,3.051  c0.486,0.954,1.313,1.66,2.326,1.987l14.27,4.623c0.403,0.131,0.818,0.195,1.23,0.195c0.625,0,1.246-0.148,1.819-0.441  c0.954-0.486,1.66-1.313,1.988-2.326c0.235-0.727,0.249-1.489,0.063-2.214L47,46.732V49c0,2.757,2.243,5,5,5s5-2.243,5-5V8  C57,5.243,54.757,3,52,3z M30.172,43.616c-0.164,0.506-0.518,0.919-0.995,1.162c-0.477,0.244-1.019,0.287-1.523,0.125L13.383,40.28  c-0.505-0.164-0.918-0.517-1.161-0.995c-0.244-0.478-0.289-1.019-0.125-1.523c0.274-0.846,1.061-1.384,1.905-1.384  c0.203,0,0.41,0.031,0.613,0.097l14.271,4.623C29.935,41.438,30.512,42.567,30.172,43.616z M6,34c0,1.103-0.897,2-2,2s-2-0.897-2-2  V23c0-1.103,0.897-2,2-2s2,0.897,2,2v0.268v10.465V34z M8,32.268v-7.535l39-12.366v32.268L8,32.268z M55,49c0,1.654-1.346,3-3,3  s-3-1.346-3-3v-1.634V9.634V8c0-1.654,1.346-3,3-3s3,1.346,3,3V49z">
-                      </path>
-                    </svg></span>
-                  <h5 class="u-custom-font u-font-montserrat u-text u-text-2">Resultados</h5>
-                  <p class="u-text u-text-palette-5-dark-2 u-text-3">Los sitios estarán funcionando perfectamente
-                    incluso antes del liquidar el pago</p>
-                  <a href="Catalogo.html"
-                    class="u-active-none u-align-center u-border-1 u-border-active-grey-60 u-border-black u-border-hover-grey-60 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-1">Catalogo</a>
+    </section>
+    <section class="u-clearfix u-palette-3-base u-section-3" id="carousel_d699">
+      <div
+        class="u-expanded-width u-palette-5-light-2 u-shape u-shape-rectangle u-shape-1"
+      ></div>
+      <h2
+        class="u-align-center u-text u-text-body-color u-text-1"
+        data-animation-name="customAnimationIn"
+        data-animation-duration="1500"
+        data-animation-delay="500"
+      >
+        Asesoramos a los clientes en el paso a paso de la creación de su sitio
+      </h2>
+      <div
+        class="data-layout-selected u-clearfix u-gutter-26 u-layout-wrap u-layout-wrap-1"
+      >
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-size-20">
+              <div class="u-layout-col">
+                <div
+                  class="u-align-center u-container-align-center u-container-style u-layout-cell u-radius-26 u-shape-round u-size-40 u-white u-layout-cell-1"
+                  data-animation-name="customAnimationIn"
+                  data-animation-duration="1500"
+                  data-animation-delay="500"
+                >
+                  <div
+                    class="u-container-layout u-valign-top u-container-layout-1"
+                  >
+                    <span
+                      class="u-icon u-icon-circle u-palette-1-base u-text-white u-icon-1"
+                      ><svg
+                        class="u-svg-link"
+                        preserveAspectRatio="xMidYMin slice"
+                        viewBox="0 0 57 57"
+                        style=""
+                      >
+                        <use xlink:href="#svg-b99c"></use></svg
+                      ><svg
+                        class="u-svg-content"
+                        viewBox="0 0 57 57"
+                        x="0px"
+                        y="0px"
+                        id="svg-b99c"
+                        style="enable-background: new 0 0 57 57"
+                      >
+                        <path
+                          d="M52,3c-2.757,0-5,2.243-5,5v2.268L7.964,22.645C7.781,20.607,6.084,19,4,19c-2.206,0-4,1.794-4,4v11c0,2.206,1.794,4,4,4  c2.084,0,3.781-1.607,3.964-3.645l3.368,1.068c-0.506,0.455-0.913,1.03-1.138,1.722c-0.328,1.014-0.241,2.097,0.246,3.051  c0.486,0.954,1.313,1.66,2.326,1.987l14.27,4.623c0.403,0.131,0.818,0.195,1.23,0.195c0.625,0,1.246-0.148,1.819-0.441  c0.954-0.486,1.66-1.313,1.988-2.326c0.235-0.727,0.249-1.489,0.063-2.214L47,46.732V49c0,2.757,2.243,5,5,5s5-2.243,5-5V8  C57,5.243,54.757,3,52,3z M30.172,43.616c-0.164,0.506-0.518,0.919-0.995,1.162c-0.477,0.244-1.019,0.287-1.523,0.125L13.383,40.28  c-0.505-0.164-0.918-0.517-1.161-0.995c-0.244-0.478-0.289-1.019-0.125-1.523c0.274-0.846,1.061-1.384,1.905-1.384  c0.203,0,0.41,0.031,0.613,0.097l14.271,4.623C29.935,41.438,30.512,42.567,30.172,43.616z M6,34c0,1.103-0.897,2-2,2s-2-0.897-2-2  V23c0-1.103,0.897-2,2-2s2,0.897,2,2v0.268v10.465V34z M8,32.268v-7.535l39-12.366v32.268L8,32.268z M55,49c0,1.654-1.346,3-3,3  s-3-1.346-3-3v-1.634V9.634V8c0-1.654,1.346-3,3-3s3,1.346,3,3V49z"
+                        ></path></svg
+                    ></span>
+                    <h5 class="u-custom-font u-font-montserrat u-text u-text-2">
+                      Resultados
+                    </h5>
+                    <p class="u-text u-text-palette-5-dark-2 u-text-3">
+                      Los sitios estarán funcionando perfectamente incluso antes
+                      del liquidar el pago
+                    </p>
+                    <a
+                      href="Catálogo.html"
+                      class="u-active-none u-align-center u-border-1 u-border-active-grey-60 u-border-black u-border-hover-grey-60 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-1"
+                      >Catálogo</a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="u-container-style u-hidden-sm u-hidden-xs u-layout-cell u-size-20 u-layout-cell-2"
+                >
+                  <div class="u-container-layout u-container-layout-2"></div>
                 </div>
               </div>
-              <div class="u-container-style u-hidden-sm u-hidden-xs u-layout-cell u-size-20 u-layout-cell-2">
-                <div class="u-container-layout u-container-layout-2"></div>
-              </div>
             </div>
-          </div>
-          <div class="u-size-20">
-            <div class="u-layout-col">
-              <div class="u-container-style u-hidden-sm u-hidden-xs u-layout-cell u-size-20 u-layout-cell-3">
-                <div class="u-container-layout u-container-layout-3"></div>
-              </div>
-              <div
-                class="u-align-center u-container-align-center u-container-style u-layout-cell u-radius-26 u-shape-round u-size-40 u-white u-layout-cell-4"
-                data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
-                <div class="u-container-layout u-valign-top u-container-layout-4"><span
-                    class="u-icon u-icon-circle u-palette-1-base u-text-white u-icon-2"><svg class="u-svg-link"
-                      preserveAspectRatio="xMidYMin slice" viewBox="0 0 59.986 59.986" style="">
-                      <use xlink:href="#svg-d14b"></use>
-                    </svg><svg class="u-svg-content" viewBox="0 0 59.986 59.986" x="0px" y="0px" id="svg-d14b"
-                      style="enable-background:new 0 0 59.986 59.986;">
-                      <path
-                        d="M59.972,20.164c0.007-0.041,0.011-0.081,0.013-0.123c0.002-0.049,0.001-0.096-0.003-0.145  c-0.004-0.042-0.01-0.082-0.02-0.123c-0.011-0.048-0.026-0.094-0.044-0.14c-0.009-0.024-0.011-0.049-0.022-0.072  c-0.008-0.017-0.022-0.03-0.031-0.047c-0.009-0.017-0.013-0.035-0.023-0.052l-10-16c-0.046-0.073-0.1-0.139-0.161-0.197  c-0.001-0.001-0.002-0.001-0.003-0.002c-0.086-0.081-0.188-0.139-0.297-0.185c-0.014-0.006-0.023-0.018-0.038-0.024  c-0.011-0.004-0.023-0.002-0.034-0.005c-0.101-0.034-0.205-0.057-0.314-0.057h-38c-0.108,0-0.211,0.023-0.31,0.056  c-0.011,0.003-0.022,0.001-0.032,0.005c-0.015,0.005-0.024,0.017-0.038,0.023c-0.104,0.043-0.202,0.099-0.287,0.175  c-0.005,0.005-0.012,0.008-0.017,0.012c-0.062,0.058-0.117,0.125-0.163,0.198l-10,16c-0.01,0.016-0.014,0.035-0.023,0.052  c-0.009,0.017-0.023,0.03-0.031,0.047c-0.011,0.023-0.013,0.048-0.023,0.072c-0.018,0.046-0.033,0.092-0.044,0.14  c-0.009,0.041-0.016,0.082-0.02,0.124C0,19.945-0.001,19.993,0.001,20.041c0.002,0.042,0.006,0.082,0.013,0.123  c0.008,0.048,0.021,0.095,0.037,0.142c0.013,0.039,0.027,0.077,0.045,0.115c0.009,0.018,0.012,0.038,0.022,0.056  c0.016,0.029,0.04,0.051,0.058,0.078c0.014,0.021,0.022,0.044,0.039,0.064l28.989,35.986c0.002,0.003,0.004,0.005,0.006,0.007  l0.005,0.007c0.003,0.004,0.008,0.005,0.011,0.009c0.082,0.099,0.184,0.174,0.295,0.234c0.03,0.016,0.058,0.03,0.089,0.043  c0.121,0.051,0.249,0.087,0.383,0.087c0.114,0,0.229-0.02,0.343-0.061c0.017-0.006,0.028-0.02,0.045-0.027  c0.051-0.021,0.091-0.055,0.137-0.084c0.076-0.048,0.147-0.098,0.206-0.163c0.014-0.015,0.035-0.022,0.048-0.038l29-36  c0.016-0.02,0.024-0.044,0.039-0.064c0.019-0.027,0.042-0.049,0.058-0.078c0.01-0.018,0.013-0.038,0.022-0.056  c0.018-0.038,0.032-0.075,0.045-0.115C59.95,20.259,59.964,20.213,59.972,20.164z M32.095,4.993h15.459l-4.86,13.045L32.095,4.993z   M40.892,18.993H19.095L29.993,5.58L40.892,18.993z M17.222,18.125L12.423,4.993h15.469L17.222,18.125z M41.593,20.993  L29.818,52.599L18.269,20.993H41.593z M49.221,6.246l7.967,12.748H44.472L49.221,6.246z M10.756,6.259l4.653,12.734H2.798  L10.756,6.259z M16.14,20.993l10.839,29.664L3.083,20.993H16.14z M32.39,51.423l11.337-30.43h13.176L32.39,51.423z">
-                      </path>
-                    </svg></span>
-                  <h5 class="u-custom-font u-font-montserrat u-text u-text-4">Precio </h5>
-                  <p class="u-text u-text-palette-5-dark-2 u-text-5">Con los precios mas bajos, nos enfocamos en
-                    brindarte un servicio de calidad sin disparar el costo hasta las nubes.</p>
-                  <a href="Precios.html"
-                    class="u-active-none u-align-center u-border-1 u-border-active-grey-60 u-border-black u-border-hover-grey-60 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-2">más</a>
+            <div class="u-size-20">
+              <div class="u-layout-col">
+                <div
+                  class="u-container-style u-hidden-sm u-hidden-xs u-layout-cell u-size-20 u-layout-cell-3"
+                >
+                  <div class="u-container-layout u-container-layout-3"></div>
+                </div>
+                <div
+                  class="u-align-center u-container-align-center u-container-style u-layout-cell u-radius-26 u-shape-round u-size-40 u-white u-layout-cell-4"
+                  data-animation-name="customAnimationIn"
+                  data-animation-duration="1500"
+                  data-animation-delay="500"
+                >
+                  <div
+                    class="u-container-layout u-valign-top u-container-layout-4"
+                  >
+                    <span
+                      class="u-icon u-icon-circle u-palette-1-base u-text-white u-icon-2"
+                      ><svg
+                        class="u-svg-link"
+                        preserveAspectRatio="xMidYMin slice"
+                        viewBox="0 0 59.986 59.986"
+                        style=""
+                      >
+                        <use xlink:href="#svg-d14b"></use></svg
+                      ><svg
+                        class="u-svg-content"
+                        viewBox="0 0 59.986 59.986"
+                        x="0px"
+                        y="0px"
+                        id="svg-d14b"
+                        style="enable-background: new 0 0 59.986 59.986"
+                      >
+                        <path
+                          d="M59.972,20.164c0.007-0.041,0.011-0.081,0.013-0.123c0.002-0.049,0.001-0.096-0.003-0.145  c-0.004-0.042-0.01-0.082-0.02-0.123c-0.011-0.048-0.026-0.094-0.044-0.14c-0.009-0.024-0.011-0.049-0.022-0.072  c-0.008-0.017-0.022-0.03-0.031-0.047c-0.009-0.017-0.013-0.035-0.023-0.052l-10-16c-0.046-0.073-0.1-0.139-0.161-0.197  c-0.001-0.001-0.002-0.001-0.003-0.002c-0.086-0.081-0.188-0.139-0.297-0.185c-0.014-0.006-0.023-0.018-0.038-0.024  c-0.011-0.004-0.023-0.002-0.034-0.005c-0.101-0.034-0.205-0.057-0.314-0.057h-38c-0.108,0-0.211,0.023-0.31,0.056  c-0.011,0.003-0.022,0.001-0.032,0.005c-0.015,0.005-0.024,0.017-0.038,0.023c-0.104,0.043-0.202,0.099-0.287,0.175  c-0.005,0.005-0.012,0.008-0.017,0.012c-0.062,0.058-0.117,0.125-0.163,0.198l-10,16c-0.01,0.016-0.014,0.035-0.023,0.052  c-0.009,0.017-0.023,0.03-0.031,0.047c-0.011,0.023-0.013,0.048-0.023,0.072c-0.018,0.046-0.033,0.092-0.044,0.14  c-0.009,0.041-0.016,0.082-0.02,0.124C0,19.945-0.001,19.993,0.001,20.041c0.002,0.042,0.006,0.082,0.013,0.123  c0.008,0.048,0.021,0.095,0.037,0.142c0.013,0.039,0.027,0.077,0.045,0.115c0.009,0.018,0.012,0.038,0.022,0.056  c0.016,0.029,0.04,0.051,0.058,0.078c0.014,0.021,0.022,0.044,0.039,0.064l28.989,35.986c0.002,0.003,0.004,0.005,0.006,0.007  l0.005,0.007c0.003,0.004,0.008,0.005,0.011,0.009c0.082,0.099,0.184,0.174,0.295,0.234c0.03,0.016,0.058,0.03,0.089,0.043  c0.121,0.051,0.249,0.087,0.383,0.087c0.114,0,0.229-0.02,0.343-0.061c0.017-0.006,0.028-0.02,0.045-0.027  c0.051-0.021,0.091-0.055,0.137-0.084c0.076-0.048,0.147-0.098,0.206-0.163c0.014-0.015,0.035-0.022,0.048-0.038l29-36  c0.016-0.02,0.024-0.044,0.039-0.064c0.019-0.027,0.042-0.049,0.058-0.078c0.01-0.018,0.013-0.038,0.022-0.056  c0.018-0.038,0.032-0.075,0.045-0.115C59.95,20.259,59.964,20.213,59.972,20.164z M32.095,4.993h15.459l-4.86,13.045L32.095,4.993z   M40.892,18.993H19.095L29.993,5.58L40.892,18.993z M17.222,18.125L12.423,4.993h15.469L17.222,18.125z M41.593,20.993  L29.818,52.599L18.269,20.993H41.593z M49.221,6.246l7.967,12.748H44.472L49.221,6.246z M10.756,6.259l4.653,12.734H2.798  L10.756,6.259z M16.14,20.993l10.839,29.664L3.083,20.993H16.14z M32.39,51.423l11.337-30.43h13.176L32.39,51.423z"
+                        ></path></svg
+                    ></span>
+                    <h5 class="u-custom-font u-font-montserrat u-text u-text-4">
+                      Precio
+                    </h5>
+                    <p class="u-text u-text-palette-5-dark-2 u-text-5">
+                      Con los precios mas bajos, nos enfocamos en brindarte un
+                      servicio de calidad sin disparar el costo hasta las nubes.
+                    </p>
+                    <a
+                      href="Precios.html"
+                      class="u-active-none u-align-center u-border-1 u-border-active-grey-60 u-border-black u-border-hover-grey-60 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-2"
+                      >más</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="u-size-20">
-            <div class="u-layout-col">
-              <div
-                class="u-align-center u-container-align-center u-container-style u-layout-cell u-radius-26 u-shape-round u-size-40 u-white u-layout-cell-5"
-                data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
-                <div class="u-container-layout u-valign-top u-container-layout-5"><span
-                    class="u-icon u-icon-circle u-palette-1-base u-text-white u-icon-3"><svg class="u-svg-link"
-                      preserveAspectRatio="xMidYMin slice" viewBox="0 0 60 60" style="">
-                      <use xlink:href="#svg-097b"></use>
-                    </svg><svg class="u-svg-content" viewBox="0 0 60 60" x="0px" y="0px" id="svg-097b"
-                      style="enable-background:new 0 0 60 60;">
-                      <path d="M48.014,42.889l-9.553-4.776C37.56,37.662,37,36.756,37,35.748v-3.381c0.229-0.28,0.47-0.599,0.719-0.951
+            <div class="u-size-20">
+              <div class="u-layout-col">
+                <div
+                  class="u-align-center u-container-align-center u-container-style u-layout-cell u-radius-26 u-shape-round u-size-40 u-white u-layout-cell-5"
+                  data-animation-name="customAnimationIn"
+                  data-animation-duration="1500"
+                  data-animation-delay="500"
+                >
+                  <div
+                    class="u-container-layout u-valign-top u-container-layout-5"
+                  >
+                    <span
+                      class="u-icon u-icon-circle u-palette-1-base u-text-white u-icon-3"
+                      ><svg
+                        class="u-svg-link"
+                        preserveAspectRatio="xMidYMin slice"
+                        viewBox="0 0 60 60"
+                        style=""
+                      >
+                        <use xlink:href="#svg-097b"></use></svg
+                      ><svg
+                        class="u-svg-content"
+                        viewBox="0 0 60 60"
+                        x="0px"
+                        y="0px"
+                        id="svg-097b"
+                        style="enable-background: new 0 0 60 60"
+                      >
+                        <path
+                          d="M48.014,42.889l-9.553-4.776C37.56,37.662,37,36.756,37,35.748v-3.381c0.229-0.28,0.47-0.599,0.719-0.951
 	c1.239-1.75,2.232-3.698,2.954-5.799C42.084,24.97,43,23.575,43,22v-4c0-0.963-0.36-1.896-1-2.625v-5.319
 	c0.056-0.55,0.276-3.824-2.092-6.525C37.854,1.188,34.521,0,30,0s-7.854,1.188-9.908,3.53C17.724,6.231,17.944,9.506,18,10.056
 	v5.319c-0.64,0.729-1,1.662-1,2.625v4c0,1.217,0.553,2.352,1.497,3.109c0.916,3.627,2.833,6.36,3.503,7.237v3.309
@@ -274,174 +531,302 @@
 	C23.253,2.958,26.081,2,30,2c3.905,0,6.727,0.951,8.386,2.828c1.947,2.201,1.625,5.017,1.623,5.041L40,16.228l0.33,0.298
 	C40.762,16.916,41,17.439,41,18v4c0,0.873-0.572,1.637-1.422,1.899l-0.498,0.153l-0.16,0.495c-0.669,2.081-1.622,4.003-2.834,5.713
 	c-0.297,0.421-0.586,0.794-0.837,1.079L35,31.623v4.125c0,1.77,0.983,3.361,2.566,4.153l9.553,4.776
-	C49.513,45.874,51,48.28,51,50.957V54z"></path>
-                    </svg></span>
-                  <h5 class="u-custom-font u-font-montserrat u-text u-text-6">Apoyo</h5>
-                  <p class="u-text u-text-palette-5-dark-2 u-text-7"> Brindamos asesoría si es que no tiene ningún
-                    conocimiento para que todo quede a su medida</p>
-                  <a href="Contacto.html"
-                    class="u-active-none u-align-center u-border-1 u-border-active-grey-60 u-border-black u-border-hover-grey-60 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-3">más</a>
+	C49.513,45.874,51,48.28,51,50.957V54z"
+                        ></path></svg
+                    ></span>
+                    <h5 class="u-custom-font u-font-montserrat u-text u-text-6">
+                      Apoyo
+                    </h5>
+                    <p class="u-text u-text-palette-5-dark-2 u-text-7">
+                      Brindamos asesoría si es que no tiene ningún conocimiento
+                      para que todo quede a su medida
+                    </p>
+                    <a
+                      href="Contacto.html"
+                      class="u-active-none u-align-center u-border-1 u-border-active-grey-60 u-border-black u-border-hover-grey-60 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-3"
+                      >más</a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="u-container-style u-hidden-sm u-hidden-xs u-layout-cell u-size-20 u-layout-cell-6"
+                >
+                  <div class="u-container-layout u-container-layout-6"></div>
                 </div>
               </div>
-              <div class="u-container-style u-hidden-sm u-hidden-xs u-layout-cell u-size-20 u-layout-cell-6">
-                <div class="u-container-layout u-container-layout-6"></div>
-              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="u-align-center u-clearfix u-container-align-center u-palette-3-base u-section-4" id="carousel_f61b">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <h2 class="u-align-center u-text u-text-default u-text-1">Sobre nuestra compañía</h2>
-      <p class="u-align-center u-text u-text-2">Una empresa pequeña que se enfoca en sitios web mas enfocados hacia un
-        publico en general si tener que gastar una fortuna.<br>Recientemente lanzada y con raíces Zacatecanas, brindamos
-        un servicio poco convencional para todos aquellos que necesitan su sitio web para facilitar su
-        trabajo&nbsp;&nbsp;<br>
-      </p>
-      <div class="data-layout-selected u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1">
-        <div class="u-layout">
-          <div class="u-layout-row">
-            <div
-              class="u-align-center-sm u-align-center-xs u-align-right-lg u-align-right-md u-align-right-xl u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
-              <div class="u-container-layout u-container-layout-1">
-                <a href="Contacto.html"
-                  class="u-active-palette-1-base u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-palette-3-base u-btn u-btn-round u-button-style u-hover-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-white u-btn-1">Contáctenos</a>
-              </div>
-            </div>
-            <div
-              class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
-              <div class="u-container-layout u-valign-top u-container-layout-2">
-                <a href="Catalogo.html"
-                  class="u-active-white u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-btn-round u-button-style u-hover-white u-none u-radius-50 u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-2"><span
-                    class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="0 0 512 512"
-                      style="width: 1em; height: 1em;">
-                      <path
-                        d="m256 512c-68.378906 0-132.667969-26.628906-181.019531-74.980469-48.351563-48.351562-74.980469-112.640625-74.980469-181.019531s26.628906-132.667969 74.980469-181.019531c48.351562-48.351563 112.640625-74.980469 181.019531-74.980469s132.667969 26.628906 181.019531 74.980469c48.351563 48.351562 74.980469 112.640625 74.980469 181.019531s-26.628906 132.667969-74.980469 181.019531c-48.351562 48.351563-112.640625 74.980469-181.019531 74.980469zm0-472c-119.101562 0-216 96.898438-216 216s96.898438 216 216 216 216-96.898438 216-216-96.898438-216-216-216zm138.285156 182-28.285156-28.285156-110 110-110-110-28.285156 28.285156 138.285156 138.285156zm0 0">
-                      </path>
-                    </svg></span>&nbsp;ver nuestro trabajo
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="u-clearfix u-section-5" id="carousel_39ac">
-    <div class="u-expanded-width u-palette-3-base u-shape u-shape-rectangle u-shape-1"></div>
-    <div class="data-layout-selected u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
-      <div class="u-layout">
-        <div class="u-layout-row">
-          <div
-            class="u-bottom-right-radius-20 u-container-style u-layout-cell u-left-cell u-shape-round u-similar-fill u-size-30 u-top-left-radius-20 u-white u-layout-cell-1">
-            <div class="u-container-layout u-valign-top u-container-layout-1">
-              <h2 class="u-text u-text-1">Con estilos modernos</h2>
-              <div class="u-border-6 u-border-palette-1-base u-line u-line-horizontal u-line-1"></div>
-            </div>
-          </div>
-          <div
-            class="u-align-left u-container-align-left u-container-style u-layout-cell u-radius-20 u-right-cell u-shape-round u-similar-fill u-size-30 u-white u-layout-cell-2">
-            <div class="u-container-layout u-container-layout-2">
-              <p class="u-text u-text-2"> Los estilos de tu página web será moderno, ya que hoy en día es crucial tener
-                una página web decente y al estilo de tu negocio</p>
-              <a href="Catalogo.html" class="u-btn u-btn-round u-button-style u-custom u-radius-50 u-btn-1">leer más</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <img class="u-align-left u-image u-image-1" data-image-width="1400" data-image-height="933"
-      src="images/fddff-min.jpg" alt="Diseño web moderno">
-  </section>
-  <section class="u-align-center u-clearfix u-container-align-center u-section-6" id="sec-7f57">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <h2 class="u-align-center u-text u-text-default u-text-1" data-animation-name="customAnimationIn"
-        data-animation-duration="1750" data-animation-delay="0"> Cómo ayudamos a las personas</h2>
-      <p class="u-align-center u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1500"
-        data-animation-delay="250">No necesita tener ningún conocimiento o asesoramiento para adquirir nuestros
-        servicios ya que nosotros ayudamos con asesoría para que su sitio web quede a su medida.<br>También nos
-        enfocamos en la confianza de nuestros clientes, así que por eso decidimos dar un plazo de 45 días para liquidar
-        el pago de tu servicio.
-      </p>
-    </div>
-  </section>
-  <section
-    class="u-align-center u-clearfix u-container-align-center u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-white u-section-7"
-    id="carousel_3a34">
-    <div class="u-expanded-width u-palette-3-base u-shape u-shape-rectangle u-shape-1"></div>
-    <div class="data-layout-selected u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
-      <div class="u-gutter-0 u-layout">
-        <div class="u-layout-row">
-          <div class="u-container-style u-image u-layout-cell u-size-30 u-image-1" data-image-width="800"
-            data-image-height="710" data-animation-name="customAnimationIn" data-animation-duration="1500"
-            data-animation-delay="500">
-            <div class="u-container-layout u-valign-middle u-container-layout-1"></div>
-          </div>
-          <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2" data-animation-name="customAnimationIn"
-            data-animation-duration="1500" data-animation-delay="500">
-            <div class="u-container-layout u-valign-top-sm u-valign-top-xl u-container-layout-2">
-              <img src="images/fdffd.jpg" alt="Diseño web responsivo" class="u-expanded-width u-image u-image-default u-image-2"
-                data-image-width="599" data-image-height="900">
+    </section>
+    <section
+      class="u-align-center u-clearfix u-container-align-center u-palette-3-base u-section-4"
+      id="carousel_f61b"
+    >
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-align-center u-text u-text-default u-text-1">
+          Sobre nuestra compañía
+        </h2>
+        <p class="u-align-center u-text u-text-2">
+          Una empresa pequeña que se enfoca en sitios web mas enfocados hacia un
+          publico en general si tener que gastar una fortuna.<br />Recientemente
+          lanzada y con raíces Zacatecanas, brindamos un servicio poco
+          convencional para todos aquellos que necesitan su sitio web para
+          facilitar su trabajo&nbsp;&nbsp;<br />
+        </p>
+        <div
+          class="data-layout-selected u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1"
+        >
+          <div class="u-layout">
+            <div class="u-layout-row">
               <div
-                class="u-align-center u-border-9 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-container-align-center u-container-style u-group u-radius-20 u-shape-round u-white u-group-1"
-                data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
-                <div class="u-container-layout u-container-layout-3">
-                  <h3 class="u-align-center u-text u-text-1">lo que hacemos</h3>
-                  <p class="u-align-center u-text u-text-font u-text-2">Incluso esta página es un ejemplo de como podía
-                    quedar cualquier servicio que dese, con más o menos ​iconos, fotos, secciones, etc.&nbsp;</p>
-                  <a href="Catalogo.html"
-                    class="u-align-center u-btn u-btn-round u-button-style u-radius-50 u-btn-1">Aprende más</a>
+                class="u-align-center-sm u-align-center-xs u-align-right-lg u-align-right-md u-align-right-xl u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1"
+              >
+                <div class="u-container-layout u-container-layout-1">
+                  <a
+                    href="Contacto.html"
+                    class="u-active-palette-1-base u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-palette-3-base u-btn u-btn-round u-button-style u-hover-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-white u-btn-1"
+                    >Contáctenos</a
+                  >
+                </div>
+              </div>
+              <div
+                class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2"
+              >
+                <div
+                  class="u-container-layout u-valign-top u-container-layout-2"
+                >
+                  <a
+                    href="Catálogo.html"
+                    class="u-active-white u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-btn-round u-button-style u-hover-white u-none u-radius-50 u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-2"
+                    ><span class="u-icon u-icon-1"
+                      ><svg
+                        class="u-svg-content"
+                        viewBox="0 0 512 512"
+                        style="width: 1em; height: 1em"
+                      >
+                        <path
+                          d="m256 512c-68.378906 0-132.667969-26.628906-181.019531-74.980469-48.351563-48.351562-74.980469-112.640625-74.980469-181.019531s26.628906-132.667969 74.980469-181.019531c48.351562-48.351563 112.640625-74.980469 181.019531-74.980469s132.667969 26.628906 181.019531 74.980469c48.351563 48.351562 74.980469 112.640625 74.980469 181.019531s-26.628906 132.667969-74.980469 181.019531c-48.351562 48.351563-112.640625 74.980469-181.019531 74.980469zm0-472c-119.101562 0-216 96.898438-216 216s96.898438 216 216 216 216-96.898438 216-216-96.898438-216-216-216zm138.285156 182-28.285156-28.285156-110 110-110-110-28.285156 28.285156 138.285156 138.285156zm0 0"
+                        ></path></svg></span
+                    >&nbsp;ver nuestro trabajo
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="u-clearfix u-palette-3-base u-section-8" id="sec-ab9f">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-26 u-layout-wrap u-layout-wrap-1">
+    </section>
+    <section class="u-clearfix u-section-5" id="carousel_39ac">
+      <div
+        class="u-expanded-width u-palette-3-base u-shape u-shape-rectangle u-shape-1"
+      ></div>
+      <div
+        class="data-layout-selected u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1"
+      >
         <div class="u-layout">
           <div class="u-layout-row">
             <div
-              class="u-align-left u-container-align-left u-container-style u-layout-cell u-radius-20 u-shape-round u-size-30 u-white u-layout-cell-1"
-              data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
-              <div class="u-container-layout u-container-layout-1">
-                <p class="u-align-left u-text u-text-1">Si le interesa trabajar con una empresa que brinda confianza, un
-                  buen desarrollo y buenos precios, pues esta ​en el lugar indicado, quedamos a sus ordenes para
-                  cualquier duda o petición que tenga, contactando por nuestras redes que se encuentran en la sección de
-                  "contacto" o de click en el siguiente botón.</p>
-                <h2 class="u-align-left u-text u-text-2">¿Listo para hablar?</h2>
-                <a href="Contacto.html"
-                  class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius u-btn-1">Cóntactenos
-                </a>
+              class="u-bottom-right-radius-20 u-container-style u-layout-cell u-left-cell u-shape-round u-similar-fill u-size-30 u-top-left-radius-20 u-white u-layout-cell-1"
+            >
+              <div class="u-container-layout u-valign-top u-container-layout-1">
+                <h2 class="u-text u-text-1">Con estilos modernos</h2>
+                <div
+                  class="u-border-6 u-border-palette-1-base u-line u-line-horizontal u-line-1"
+                ></div>
               </div>
             </div>
-            <div class="u-align-left u-container-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-2"
-              data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750">
-              <div class="u-container-layout u-valign-top-lg u-valign-top-xl u-container-layout-2">
-                <h2 class="u-align-left u-text u-text-3">Contáctanos a través de nuestras redes</h2>
-                <img src="images/fdg-min.jpg" alt="Redes sociales"
-                  class="u-expanded-width u-image u-image-round u-radius-20 u-image-1" data-image-width="929"
-                  data-image-height="1080">
+            <div
+              class="u-align-left u-container-align-left u-container-style u-layout-cell u-radius-20 u-right-cell u-shape-round u-similar-fill u-size-30 u-white u-layout-cell-2"
+            >
+              <div class="u-container-layout u-container-layout-2">
+                <p class="u-text u-text-2">
+                  Los estilos de tu página web será moderno, ya que hoy en día
+                  es crucial tener una página web decente y al estilo de tu
+                  negocio
+                </p>
+                <a
+                  href="Catálogo.html"
+                  class="u-btn u-btn-round u-button-style u-custom u-radius-50 u-btn-1"
+                  >leer más</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+      <img
+        class="u-align-left u-image u-image-1"
+        data-image-width="1400"
+        data-image-height="933"
+        src="images/fddff-min.jpg"
+        alt="Diseño web moderno"
+      />
+    </section>
+    <section
+      class="u-align-center u-clearfix u-container-align-center u-section-6"
+      id="sec-7f57"
+    >
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2
+          class="u-align-center u-text u-text-default u-text-1"
+          data-animation-name="customAnimationIn"
+          data-animation-duration="1750"
+          data-animation-delay="0"
+        >
+          Cómo ayudamos a las personas
+        </h2>
+        <p
+          class="u-align-center u-text u-text-2"
+          data-animation-name="customAnimationIn"
+          data-animation-duration="1500"
+          data-animation-delay="250"
+        >
+          No necesita tener ningún conocimiento o asesoramiento para adquirir
+          nuestros servicios ya que nosotros ayudamos con asesoría para que su
+          sitio web quede a su medida.<br />También nos enfocamos en la
+          confianza de nuestros clientes, así que por eso decidimos dar un plazo
+          de 45 días para liquidar el pago de tu servicio.
+        </p>
+      </div>
+    </section>
+    <section
+      class="u-align-center u-clearfix u-container-align-center u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-white u-section-7"
+      id="carousel_3a34"
+    >
+      <div
+        class="u-expanded-width u-palette-3-base u-shape u-shape-rectangle u-shape-1"
+      ></div>
+      <div
+        class="data-layout-selected u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1"
+      >
+        <div class="u-gutter-0 u-layout">
+          <div class="u-layout-row">
+            <div
+              class="u-container-style u-image u-layout-cell u-size-30 u-image-1"
+              data-image-width="800"
+              data-image-height="710"
+              data-animation-name="customAnimationIn"
+              data-animation-duration="1500"
+              data-animation-delay="500"
+            >
+              <div
+                class="u-container-layout u-valign-middle u-container-layout-1"
+              ></div>
+            </div>
+            <div
+              class="u-container-style u-layout-cell u-size-30 u-layout-cell-2"
+              data-animation-name="customAnimationIn"
+              data-animation-duration="1500"
+              data-animation-delay="500"
+            >
+              <div
+                class="u-container-layout u-valign-top-sm u-valign-top-xl u-container-layout-2"
+              >
+                <img
+                  src="images/fdffd.jpg"
+                  alt="Diseño web responsivo"
+                  class="u-expanded-width u-image u-image-default u-image-2"
+                  data-image-width="599"
+                  data-image-height="900"
+                />
+                <div
+                  class="u-align-center u-border-9 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-container-align-center u-container-style u-group u-radius-20 u-shape-round u-white u-group-1"
+                  data-animation-name="customAnimationIn"
+                  data-animation-duration="1500"
+                  data-animation-delay="500"
+                >
+                  <div class="u-container-layout u-container-layout-3">
+                    <h3 class="u-align-center u-text u-text-1">
+                      lo que hacemos
+                    </h3>
+                    <p class="u-align-center u-text u-text-font u-text-2">
+                      Incluso esta página es un ejemplo de como podía quedar
+                      cualquier servicio que dese, con más o menos ​iconos,
+                      fotos, secciones, etc.&nbsp;
+                    </p>
+                    <a
+                      href="Catálogo.html"
+                      class="u-align-center u-btn u-btn-round u-button-style u-radius-50 u-btn-1"
+                      >Aprende más</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-palette-3-base u-section-8" id="sec-ab9f">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div
+          class="data-layout-selected u-clearfix u-expanded-width u-gutter-26 u-layout-wrap u-layout-wrap-1"
+        >
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div
+                class="u-align-left u-container-align-left u-container-style u-layout-cell u-radius-20 u-shape-round u-size-30 u-white u-layout-cell-1"
+                data-animation-name="customAnimationIn"
+                data-animation-duration="1500"
+                data-animation-delay="500"
+              >
+                <div class="u-container-layout u-container-layout-1">
+                  <p class="u-align-left u-text u-text-1">
+                    Si le interesa trabajar con una empresa que brinda
+                    confianza, un buen desarrollo y buenos precios, pues esta
+                    ​en el lugar indicado, quedamos a sus ordenes para cualquier
+                    duda o petición que tenga, contactando por nuestras redes
+                    que se encuentran en la sección de "contacto" o de click en
+                    el siguiente botón.
+                  </p>
+                  <h2 class="u-align-left u-text u-text-2">
+                    ¿Listo para hablar?
+                  </h2>
+                  <a
+                    href="Contacto.html"
+                    class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius u-btn-1"
+                    >Cóntactenos
+                  </a>
+                </div>
+              </div>
+              <div
+                class="u-align-left u-container-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-2"
+                data-animation-name="customAnimationIn"
+                data-animation-duration="1500"
+                data-animation-delay="750"
+              >
+                <div
+                  class="u-container-layout u-valign-top-lg u-valign-top-xl u-container-layout-2"
+                >
+                  <h2 class="u-align-left u-text u-text-3">
+                    Contáctanos a través de nuestras redes
+                  </h2>
+                  <img
+                    src="images/fdg-min.jpg"
+                    alt="Redes sociales"
+                    class="u-expanded-width u-image u-image-round u-radius-20 u-image-1"
+                    data-image-width="929"
+                    data-image-height="1080"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <footer class="u-align-center u-clearfix u-container-align-center u-footer u-grey-80 u-footer" id="sec-c2dd">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <p class="u-small-text u-text u-text-variant u-text-1">&copy; 2024 <a href="./index.html">Epic Systems</a> | Todos
-        los derechos reservados.</p>
-    </div>
-  </footer>
-
-</body>
-
+    <footer
+      class="u-align-center u-clearfix u-container-align-center u-footer u-grey-80 u-footer"
+      id="sec-c2dd"
+    >
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">
+          &copy; 2024 <a href="./index.html">Epic Systems</a> | Todos los
+          derechos reservados.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

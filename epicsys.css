@@ -42966,3 +42966,9 @@ a.u-link.u-text-hover-grey-90:hover {
  /*end-variables base-font-size*/
 
 /*footer all sections*/
+
+.precio-tachado {
+  text-decoration: line-through; /* Tacha el precio */
+  color: red; /* Cambia el color del precio tachado (opcional) */
+  margin-right: 10px; /* Espacio entre los precios */
+}

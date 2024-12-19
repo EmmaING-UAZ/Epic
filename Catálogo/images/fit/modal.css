@@ -1,0 +1,55 @@
+/* Contenedor de la imagen */
+.image-container {
+    position: relative;
+    width: 200%; /* Ajusta el porcentaje según necesites */
+    height: 200%;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilo para la imagen */
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    /* Agrega el wheelzoom aquí */
+  }
+  
+
+  .u-sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    max-width: 80%;
+    transform: translateX(-100%); /* Oculto fuera de la pantalla */
+    transition: transform 0.3s ease; /* Animación de entrada */
+    background-color: white; /* Ajusta el fondo del menú */
+    z-index: 1000;
+  }
+  
+  .u-menu-overlay {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+    z-index: 900;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Clases activadas cuando se abre el menú */
+  .menu-open {
+    transform: translateX(0); /* Mueve el menú a la vista */
+  }
+  
+  .overlay-show {
+    display: block;
+    opacity: 1; /* Muestra el overlay */
+  }
+  
